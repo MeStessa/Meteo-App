@@ -48,7 +48,8 @@ ul.description {
 }
 .block {
   border: 0.5px solid black;
-  max-width: 600px;
+  max-width: 550px;
+  width: 280px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: #642b73; /* fallback for old browsers */
@@ -82,7 +83,7 @@ ul.description {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   border-radius: 10px;
-  width: 130px;
+  width: 100px;
 }
 .forecast-hour {
   margin: 50px 10px 20px 10px;
