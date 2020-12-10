@@ -1,0 +1,131 @@
+body {
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+}
+ul.description {
+  padding-left: 30px;
+}
+#current-temperature {
+  font-size: 50px;
+}
+#icon {
+  width: 80px;
+  margin-left: 25px;
+}
+.week-icon {
+  width: 30px;
+  display: inline;
+}
+.city-icon {
+  width: 10px;
+}
+.minMax {
+  margin: 0;
+  padding: 0;
+}
+.block {
+  border: 0.5px solid black;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background: #642b73; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #c6426e,
+    #642b73
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #c6426e,
+    #642b73
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+#forecast-week {
+  padding: 0;
+  margin-left: 10px;
+  color: #6a2c73;
+  font-weight: bold;
+  background: #1c92d2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f2fcfe,
+    #1c92d2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  border-radius: 10px;
+  width: 130px;
+}
+.forecast-hour {
+  margin: 50px 10px 20px 10px;
+}
+.col-3 {
+  display: block;
+  text-align: center;
+}
+.btn {
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background: #20002c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cbb4d4,
+    #20002c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#search-input {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  height: 34px;
+  border: 0;
+  outline: none;
+  border-radius: 4px;
+  line-height: 2.1;
+  font-family: "Courier New", Courier, monospace;
+}
+#current-button {
+  margin-left: 10px;
+}
+.search-area {
+  margin-bottom: 20px;
+}
+.units {
+  font-size: 15px;
+}
+.active {
+  color: white;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: #000;
+}
