@@ -37,15 +37,18 @@ ul.description {
   display: inline;
 }
 .city-icon {
-  width: 10px;
+  width: 50px;
+  margin-left: 130px;
 }
 .minMax {
   margin: 0;
   padding: 0;
+  position: relative;
+  left: -30px;
 }
 .block {
   border: 0.5px solid black;
-  max-width: 350px;
+  max-width: 600px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: #642b73; /* fallback for old browsers */
@@ -128,4 +131,10 @@ ul.description {
 .active:hover {
   text-decoration: none;
   color: #000;
+}
+.pin-icon {
+  width: 20px;
+}
+.degree-icon {
+  width: 25px;
 }

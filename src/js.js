@@ -84,6 +84,7 @@ function showDetails(response) {
   tempCelsius = Math.round(
     response.data.main.temp
   );
+  console.log(response.data.weather)
 }
 
 function displayForecast(response) {
@@ -100,6 +101,9 @@ function displayForecast(response) {
           </div>`;
 }
 }
+
+
+
 function searchCity(city) {
   let apiKey = "2abf5cd5bdf12c255e9d60ca40791365";
 
@@ -139,3 +143,25 @@ function getPosition(position) {
 }
 let currentButton = document.querySelector("#current-button");
 currentButton.addEventListener("click", showPosition);
+
+
+var dict = {
+    '01d': 'wi-day-sunny',
+    '02d': 'wi-day-cloudy',
+    '03d': 'wi-cloud',
+    '04d': 'wi-cloudy',
+    '09d': 'wi-showers',
+    '10d': 'wi-day-rain-mix',
+    '11d': 'wi-thunderstorm',
+    '13d': 'wi-snow',
+    '50d': 'wi-fog',
+    '01n': 'wi-night-clear',
+    '02n': 'wi-night-alt-cloudy',
+    '03n': 'wi-night-alt-cloudy-high',
+    '04n': 'wi-cloudy',
+    '09n': 'wi-night-alt-sprinkle',
+    '10n': 'wi-night-alt-showers',
+    '11n': 'wi-night-alt-thunderstorm',
+    '13n': 'wi-night-alt-snow',
+    '50n': 'wi-night-fog'
+  };
