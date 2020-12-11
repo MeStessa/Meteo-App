@@ -38,18 +38,29 @@
           <img class="city-icon" src="images/city.png" />
           <div class="row">
             <div><img id="icon" src="images/sun.png" /></div>
-            <ul class="description">
-              <li id="current-temperature"></li>
-              <span>° <img class="degree-icon" src="images/degree.png" /></span>
-              <span class="units">
-                <a href="#" id="celsius" class="active">C </a>
-                |
-                <a href="#" id="fahr">F </a>
-              </span>
+            <ul>
+              <li class="current-temperature">
+                <span id="current-temperature"></span>°
+                <img class="degree-icon" src="images/degree.png" />
+                <span class="units">
+                  <a href="#" id="celsius" class="active">C° </a>
+                  |
+                  <a href="#" id="fahr">F° </a>
+                </span>
+              </li>
 
-              <li>Feels like <span id="feels-like"> </span>°</li>
-              <li>Wind <span id="wind"></span>km/h</li>
-              <li>Humidity <span id="humidity"></span>%</li>
+              <li class="description">
+                Feels like <img class="indice-icon" src="images/indice.png" />
+                <span id="feels-like"> </span>°
+              </li>
+              <li class="description">
+                Wind <img class="wind-icon" src="images/wind.png" />
+                <span id="wind"></span>km/h
+              </li>
+              <li class="description">
+                Humidity <img class="humidity-icon" src="images/humid.png" />
+                <span id="humidity"></span>%
+              </li>
             </ul>
             <ul class="minMax">
               <li><span id="max"></span>°</li>
@@ -57,31 +68,41 @@
             </ul>
           </div>
           <h2>
-            <small>today is</small> <span id="today"> </span>/
+            <span id="today"> </span>/
             <span id="current-time"> </span>
           </h2>
           <div class="row forecast-hour" id="forecast"></div>
         </div>
         <div id="forecast-week">
-          <div class="col-3">
-            Monday <img class="week-icon" src="images/sun.png" />
-            <strong>17° </strong>
+          <div class="card">
+            <div class="card-body">
+              Monday <br /><img class="week-icon" src="images/sun.png" />
+              <strong>17° </strong>
+            </div>
           </div>
-          <div class="col-3">
-            Tuesday<img class="week-icon" src="images/sun.png" />
-            <strong>17° </strong>
+          <div class="card">
+            <div class="card-body">
+              Tuesday <br /><img class="week-icon" src="images/sun.png" />
+              <strong>18° </strong>
+            </div>
           </div>
-          <div class="col-3">
-            Wednesday<img class="week-icon" src="images/sun.png" />
-            <strong>17° </strong>
+          <div class="card">
+            <div class="card-body">
+              Wednesday <br /><img class="week-icon" src="images/sun.png" />
+              <strong>17° </strong>
+            </div>
           </div>
-          <div class="col-3">
-            Thursday<img class="week-icon" src="images/sun.png" />
-            <strong>17° </strong>
+          <div class="card">
+            <div class="card-body">
+              Thursday <br /><img class="week-icon" src="images/sun.png" />
+              <strong>17° </strong>
+            </div>
           </div>
-          <div class="col-3">
-            Friday<img class="week-icon" src="images/sun.png" />
-            <strong>17° </strong>
+          <div class="card">
+            <div class="card-body">
+              Friday <br /><img class="week-icon" src="images/sun.png" />
+              <strong>17° </strong>
+            </div>
           </div>
         </div>
       </div>
