@@ -10,37 +10,38 @@
     <link rel="stylesheet" href="src/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>newAPP</title>
+    <title>meteo-app</title>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
-      <div class="row search-area">
-        <form id="search-form">
-          <input
-            type="search"
-            placeholder=" Enter the city "
-            size="25"
-            autofocus="on"
-            id="search-input"
-          />
-
-          <button type="submit" class="btn btn-dark">Search</button>
-        </form>
-        <button type="submit" id="current-button" class="btn btn-info">
-          <img class="pin-icon" src="images/pin.png" />
-        </button>
-      </div>
-
       <div class="row">
         <div class="block">
+          <div class="row search-area">
+            <form id="search-form">
+              <input
+                type="search"
+                placeholder=" Enter the city "
+                size="20"
+                autofocus="on"
+                id="search-input"
+              />
+
+              <button type="submit" class="btn btn-dark">
+                <img class="search-icon" src="images/search.png" />
+              </button>
+            </form>
+            <button type="submit" id="current-button" class="btn btn-info">
+              <img class="pin-icon" src="images/pin.png" />
+            </button>
+          </div>
           <h1 id="city"></h1>
           <img class="city-icon" src="images/city.png" />
           <div class="row">
             <div><img id="icon" src="images/sun.png" /></div>
             <ul>
               <li class="current-temperature">
-                <span id="current-temperature"></span>°
+                <span id="current-temperature"></span>
                 <img class="degree-icon" src="images/degree.png" />
                 <span class="units">
                   <a href="#" id="celsius" class="active">C° </a>

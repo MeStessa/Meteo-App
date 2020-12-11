@@ -13,8 +13,10 @@ body {
 }
 h1 {
   text-align: center;
+  font-weight: 200;
 }
 h2 {
+  font-weight: 100;
   text-align: center;
   font-size: 25px;
   margin-top: 20px;
@@ -25,7 +27,8 @@ ul {
 .description {
 }
 #current-temperature {
-  font-size: 60px;
+  font-size: 70px;
+  font-weight: 200;
   text-align: center;
   margin: 0 auto;
   padding: 0;
@@ -59,9 +62,9 @@ ul {
   padding: 0;
 }
 .block {
+  padding: 10px;
   border: 0.5px solid black;
   max-width: 650px;
-  width: 400;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background: #642b73; /* fallback for old browsers */
@@ -81,6 +84,8 @@ ul {
   padding: 0;
 }
 .card {
+  border: 0;
+  border-radius: 10px;
   transition: all 200ms ease;
   justify-content: space-evenly;
   color: white;
@@ -135,26 +140,26 @@ ul {
 .btn {
   border-radius: 4px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  background: #20002c; /* fallback for old browsers */
+  background: #dae2f8; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #cbb4d4,
-    #20002c
+    #d6a4a4,
+    #dae2f8
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #cbb4d4,
-    #20002c
+    #d6a4a4,
+    #dae2f8
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #search-input {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  height: 34px;
   border: 0;
   outline: none;
   border-radius: 4px;
-  line-height: 2.1;
+  line-height: 1.9;
   font-family: "Courier New", Courier, monospace;
+  margin-left: 20px;
 }
 #current-button {
   margin-left: 10px;
@@ -176,6 +181,9 @@ ul {
   color: white;
 }
 .pin-icon {
+  width: 20px;
+}
+.search-icon {
   width: 20px;
 }
 .degree-icon {
